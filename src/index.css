@@ -1,0 +1,315 @@
+/*------------ BASE ------------ */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #424242 url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*delete spinner in input [type=number]*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.cart-widget-icon {
+  height: 35px;
+}
+
+
+
+/*------------ TEMPLATES ------------ */
+.main-footer {
+  min-height: 240px;
+  background-color: #1f1f1f;
+  color: white;
+}
+.main-sections__slider {
+  min-height: 630px;
+  background-color: rgb(49, 49, 49);
+}
+.main-sections__title {
+  min-height: 80px;
+  max-width: 1024px;
+  margin: auto;
+  padding: 30px 20px;
+  background-color: white;
+}
+.main-sections__main-banner {
+  min-height: 333px;
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 20px 30px;
+  background-color: white;
+}
+.main-sections__mosaic-grid {
+  min-height: 1034px;
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 20px;
+  background-color: white;
+}
+.main-sections__card-detail{
+  min-height: 640px;
+  max-width: 1024px;
+  margin: auto;
+  background-color: white;
+}
+.main-sections__news {
+  min-height: 180px;
+  max-width: 1024px;
+  margin: auto;
+  background-color: white;
+}
+.main-sections__filters {
+  min-height: 700px;
+  max-width: 1024px;
+  margin: auto;
+  padding: 30px 20px;
+  color: white;
+}
+.main-sections__filteredItems {
+  max-width: 1024px;
+  margin: auto;
+  padding: 30px 20px;
+  background-color: white;
+}
+.main-sections__main-info {
+  max-width: 1024px;
+  margin: auto;
+  background-color: white;
+}
+.main-sections__pokedex-search {
+  color: white;
+  padding: 30px 20px;
+  max-width: 1024px;
+  margin: auto;
+  min-height: 250px;
+}
+.main-sections__sortby {
+  background-color: white;
+  padding: 30px 20px;
+  max-width: 1024px;
+  margin: auto;
+  min-height: 130px;
+}
+.main-sections__pokedex-results {
+  background-color: white;
+  padding: 30px 20px;
+  max-width: 1024px;
+  margin: auto;
+  min-height: 1140px;
+}
+
+
+
+/*------------ HEIGHT/WIDTH ------------ */
+.min-h-300px {
+  min-height: 300px !important;
+}
+.h-40px {
+  height: 40px !important;
+}
+.h-100px {
+  height: 100px !important;
+}
+.h-200px {
+  height: 200px !important;
+}
+.h-460px {
+  height: 460px !important;
+}
+
+
+
+/*------------ FONTS ------------ */
+.fs-20 {
+  font-size: 10em;
+}
+
+
+
+/*------------ BACKGROUNDS ------------ */
+.bg-facebook {
+  background-color: #3b5998;
+}
+.bg-twitter {
+  background-color: #44ccf6;
+}
+.bg-youtube {
+  background-color: #ff0000;
+}
+
+.white-striped-background {
+  background: #fff url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+}
+
+.bg-darker-1 {
+  background-color: #313131;
+}
+.bg-gray {
+  background-color: #919191;
+}
+.bg-red {
+  background-color: #E3350D;
+}
+.bg-orange {
+  background-color: #ee6b2f;
+}
+.bg-yellow {
+  background-color: #e6bc2f;
+}
+.bg-green {
+  background-color: #4dad5b;
+}
+.bg-cyan {
+  background-color: #30a7d7;
+}
+.bg-purple {
+  background-color: #855ac9;
+}
+.bg-aqua {
+  background-color: #30a7d7;
+}
+.bg-gray-2 {
+  background-color: #a4a4a4;
+}
+.bg-blue {
+  background-color: #1b53ba;
+}
+.bg-light-brown {
+  background-color: #C7AA79;
+}
+.bg-light-red {
+  background-color: #FF514F;
+}
+.bg-light-purple {
+  background-color: #B38AEA;
+}
+.bg-light-dark {
+  background-color: #313131;
+}
+.bg-light-green {
+  background-color: #4dad5b;
+}
+.bg-light-gray {
+  background-color: #F2F2F2;
+}
+
+/*Block 1*/
+.block1:hover.bg-aqua {
+  background-color: #1b82b1;
+}
+.block1:hover.bg-gray-2 {
+  background-color: #8b8b8b;
+}
+
+/*Block 1 left*/
+.block1-left:hover.bg-blue {
+  background-color: #1847d7;
+}
+.block1-left:hover.bg-yellow {
+  background-color: #daa31c;
+}
+
+/*Block 3*/
+.block3:hover.bg-light-brown {
+  background-color: #b89355;
+}
+.block3:hover.bg-light-green {
+  background-color: #369143;
+}
+
+/*Block 2*/
+.block2:hover.bg-orange {
+  background-color: #da471b;
+}
+.block2:hover.bg-light-red {
+  background-color: #ff1f1c;
+}
+.block2:hover.bg-light-dark, .block4:hover.bg-light-dark {
+  background-color: #282828;
+}
+.block2:hover.bg-purple, .block3:hover.bg-purple {
+  background-color: #734bb2;
+}
+.block2:hover.bg-light-purple {
+  background-color: #975fe2;
+}
+.block2:hover.bg-red {
+  background-color: #b32a0a;
+}
+.block2:hover.bg-blue {
+  background-color: #1847d7;
+}
+.bg-transition,
+.block1:hover.bg-transition,
+.block1-left:hover.bg-transition,
+.block2:hover.bg-transition,
+.block3:hover.bg-transition,
+.block4:hover.bg-transition {
+  -webkit-transition: background-color .1s linear;
+  -ms-transition: background-color .1s linear;
+  -moz-transition: background-color .1s linear;
+  -o-transition: background-color .1s linear;
+  transition: background-color .1s linear;
+}
+
+
+
+/*------------ VENDORS ------------ */
+.slick-slide .center__link {
+ pointer-events: none;
+ cursor: default;
+}
+.slick-slide.slick-current .center__link {
+  background-color: #232323;
+  border-radius: .25rem!important;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.slick-slide .center__desc {
+  display: none;
+}
+.slick-slide.slick-current .center__desc {
+  display: block;
+}
+.slick-slide .center__image {
+  opacity: 0.4;
+}
+.slick-slide.slick-current .center__image {
+  opacity: 1;
+}
+.slick-prev, .slick-next {
+  background-color: #616161;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 100%;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
