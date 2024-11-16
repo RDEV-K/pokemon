@@ -1,0 +1,111 @@
+.main-navbar {
+  background-color: #FFF;
+  border-bottom: 2px solid #f0f0f0;
+}
+.main-navbar__figure {
+  background-color: #f5f5f5;
+  padding: 10px 0;
+  margin: 0;
+}
+.main-navbar__img {
+  max-width: 100%;
+  height: 150px;
+}
+
+/*li tags*/
+.main-navbar__inicio {
+  border-left: 7px solid #919191;
+  border-bottom: 1px solid #dedede;
+}
+.main-navbar__pokedex {
+  border-left: 7px solid #E3350D;
+  border-bottom: 1px solid #dedede;
+}
+.main-navbar__aplicaciones {
+  border-left: 7px solid #ee6b2f;
+  border-bottom: 1px solid #dedede;
+}
+.main-navbar__juego {
+  border-left: 7px solid #e6bc2f;
+  border-bottom: 1px solid #dedede;
+}
+.main-navbar__tv {
+  border-left: 7px solid #4dad5b;
+  border-bottom: 1px solid #dedede;
+}
+.main-navbar__play {
+  border-left: 7px solid #30a7d7;
+  border-bottom: 1px solid #dedede;
+}
+
+
+.main-navbar__icon {
+  max-width: 100%;
+  height: 30px;
+}
+
+/*bootstrap X-Small*/
+@media (max-width: 575px) {
+.main-navbar__img {
+  height: 100px;
+  }
+}
+/*bootstrap Small*/
+@media (min-width: 576px) {
+}
+/*bootstrap Medium*/
+@media (min-width: 768px) {
+.main-navbar__inicio {
+  border-left: none;
+  border-bottom: 6px solid #919191;
+}
+.main-navbar__pokedex {
+  border-left: none;
+  border-bottom: 6px solid #E3350D;
+}
+.main-navbar__aplicaciones {
+  border-left: none;
+  border-bottom: 6px solid #ee6b2f;
+}
+.main-navbar__juego {
+  border-left: none;
+  border-bottom: 6px solid #e6bc2f;
+}
+.main-navbar__tv {
+  border-left: none;
+  border-bottom: 6px solid #4dad5b;
+}
+.main-navbar__play {
+  border-left: none;
+  border-bottom: 6px solid #30a7d7;
+}
+}
+/*bootstrap Large*/
+@media (min-width: 992px) {
+}
+/*bootstrap X-Large*/
+@media (min-width: 1200px) {
+}
+/*bootstrap XL-Large*/
+@media (min-width: 1400px) {
+}
+
+
+/*bootstrap X-Small*/
+/*@media (max-width: 575px) {*/
+/*}*/
+/*bootstrap Small*/
+/*@media (min-width: 576px) {*/
+/*}*/
+/*bootstrap Medium*/
+/*@media (min-width: 768px) {*/
+/*}*/
+/*bootstrap Large*/
+/*@media (min-width: 992px) {*/
+/*}*/
+/*bootstrap X-Large*/
+/*@media (min-width: 1200px) {*/
+/*}*/
+/*bootstrap XL-Large*/
+/*@media (min-width: 1400px) {*/
+/*}*/
